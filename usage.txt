@@ -16,4 +16,4 @@
 * sanity checks:
   - ./compile.sh source.c -o source.o
   - ./diff.sh target.o source.o | colordiff | less
-* python3 permuter.py source.c target.o ./compile.sh
+* python3 main_randomizer.py source.c target.o ./compile.sh
